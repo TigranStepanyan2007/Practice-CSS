@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(41, 253, 83, 0.1), rgba(41, 253, 83, 0.6), rgba(41, 253, 83, 1), rgba(41, 253, 83, 0.6), rgba(41, 253, 83, 0.1));
+    color: #fff;
+}
+.ScrollUp a{
+    position: fixed;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    bottom: 40px;
+    right: 40px;
+    color: #555;
+    transition: all 0.4s ease;
+}
+.ScrollUp a:hover{
+    color: #29fd53;
+    transform: scale(1.5);
+}
+nav{
+    background-color: #555;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    flex: 1;
+    text-align: center;
+}  
+nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+nav a.active{
+    color: #29fd53;
+    transform: scale(1.5);
+}
+nav a:hover{
+    color: #29fd53;
+    transform: scale(1.5);
+}
+.nav-bar{
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.LangMenu{
+    cursor: pointer;
+    text-align: center;
+}
+.Starting{
+    margin: 10%;
+    text-align: center;
+    display: block;
+}
+.Starting h1{
+    text-transform: uppercase;
+}
+.Starting a{
+    margin: 5%;
+    display: block;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-size: 130%;
+}
+.Starting a:hover{
+    color: #555;
+    transform: scale(1.3);
+}
+.Starting img{
+    width: 50%;
+}
+.FruitsAndVegetables{
+    margin: 120px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.FruitsAndVegetables img{
+    width: initial;
+    margin: 20px;
+}
+.FruitsAndVegetables .FruAndVeg img{
+    width: 150px;
+}
+.FruAndVeg{
+    margin: 50px;
+    text-align: center;
+}
+.EconomicProducts{
+    margin: 120px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.EconomicProducts img{
+    width: initial;
+    margin: 20px;
+}
+.EconomicProducts .EcoProducts img{
+    width: 150px;
+}
+.EcoProducts{
+    margin: 50px;
+    text-align: center;
+}
+.Meat{
+    margin: 120px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Meat img{
+    width: initial;
+    margin: 20px;
+}
+.Meat .Meat1 img{
+    width: 150px;
+}
+.Meat1{
+    margin: 50px;
+    text-align: center;
+}
+.AlcoholicDrinks{
+    margin: 120px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.AlcoholicDrinks img{
+    width: initial;
+    margin: 20px;
+}
+.AlcoholicDrinks .AlcDrinks img{
+    width: 150px;
+}
+.AlcDrinks{
+    margin: 50px;
+    text-align: center;
+}
+.section1{
+    width: 300px;
+    height: 500px;
+    border: 5px double #fff;
+    border-radius: 10%;
+    margin: 40px 70px;
+    transition: all 0.7s ease;
+    background-color: #fff;
+    color: #555;
+    border: 10px double #555;
+}
+.section1:hover{
+    transform: scale(1.1);
+}
+.section1 caption{
+    margin: 40px;
+}
+.section1 h4{
+    margin: 10px;
+}
+.section1 button{
+    margin: 40px;
+    margin-left: 33%;
+    text-align: center;
+    color: #fff;
+    background-color: #555;
+    border: none;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    border-radius: 10%;
+}
+.section1 button:hover{
+    color: 555;
+    background-color: #29fd53;
+}
+.ending-caption{
+    display: block;
+    margin-bottom: 150px;
+}
+.ending-caption p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    transition: all 0.7s ease;
+}
+.ending-caption p:hover{
+    color: #555;
+}
+.FooterPage{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.FooterPage img{
+    margin: 20px 40px;
+    width: 15%;
+}
+.section2{
+    margin: 5px 10px;
+    display: grid;
+    padding: 10px 20px;
+}
+.section2 a{
+    margin: 5px 10px;
+    color: #fff;
+    transition: all 0.7s ease;
+}
+.section2 a:hover{
+    color: #000;
+}
+.OurContacts{
+    display: grid;
+    margin-top: 1%;
+}
+.icons{
+    font-size: 40px;
+}
+.icons .viber{
+    color: #fff;
+    transition: all 0.7s ease;
+}
+.icons .viber:hover{
+    color: #84299e;
+}
+.icons .whatsapp{
+    color: #fff;
+    transition: all 0.7s ease;
+}
+.icons .whatsapp:hover{
+    color: #29fd53;
+}
+.WebsiteEnd{
+    margin-left: -1%;
+    margin-top: 1%;
+}
+.Supermarket-icon{
+    font-size: 500%;
+    margin-left: 8%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    transition: all 0.7s ease;
+}
+.Supermarket-icon:hover{
+    color:#555;
+}
+@media screen and (max-width: 768px){
+    .nav-bar{
+      display: block;
+    }
+    nav ul{
+      display: none;
+    }
+    nav ul.show{
+      display: flex;
+      flex-direction: column;
+    }
+    .section1{
+        width: 500px;
+    }
+    .LangMenu{
+        text-align: center;
+        margin-top: 2%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Starting h1{
+        margin-top: 25%;
+        transition: all 0.7s ease;
+    }
+    .Starting img{
+        width: 90%;
+        transition: all 0.7s ease;
+    }
+    }
